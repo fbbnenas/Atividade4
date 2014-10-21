@@ -1,0 +1,104 @@
+@import "fonts/stylesheet.css";
+
+#recipiente{
+	background-image: linear-gradient(to bottom, #f6f1b2, #4599b2);
+	width: 800px;
+	height: 700px;
+	border: 1px; #d3d3d3;
+	position: relative;
+	left: 100px;
+}
+
+#cabecalho{
+	position: absolute;
+	left: 200px;
+}
+
+#cabecalho h1{	
+	font-family: Ravie;
+	font-size: 36px;
+	color: #e90c0c;
+	top: 10px;
+}
+
+#cabecalho h2{
+	font-family: Trebuchet MS;
+	font-size: 24px;
+	color: #333;
+	position: absolute;
+	left: 165px;
+}
+
+#lateral{
+	position: absolute;
+	left: 10px;
+	display: blockS;
+	height: 700px;
+	width: 150px;
+}
+
+#texto-cardapio{
+	transform: rotate(270deg);
+	position: absolute;
+	top: 300px;
+	left: -50px;
+	font-family: Verdana;
+	font-size: 48px;
+	color: #333;
+}
+
+#cardapio{
+	background-color: #fff, alpha 20%;
+	border: 1px, #aac0ae;	
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	width: 500px;
+	display: blockS;
+	font-family: Verdana;
+	font-size: 14px;
+	color: #333;
+}
+
+#cardapio h2{
+	font: Verdana, bold, 18px;
+	color: #333;
+}
+
+#bolhas{
+	position: absolute;
+	left: 30px;
+	top:500px;
+}
+
+#ticket{
+	position: absolute;
+	left: -89px;
+	top: 295px;
+}
+
+#ticket:hover{
+	position: absolute;
+	left: 0px;
+	top: 295px;
+}
+
+#rodape{
+	background-color: #4599b2;
+	width: 800px;
+	position: relative;
+	left: 100px;
+}
+
+#rodape>img{
+	position: relative;
+	left: 700px;
+	bottom: -100px;
+}
+
+#peixe{
+	position: relative;
+	left: 10px;
+	top: -10px;
+}
+
